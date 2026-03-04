@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketVerse | Learn. Listen. Level Up.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#">market<span>verse</span></a>
+        <nav class="main-nav">
+          <a href="#categories">Categories</a>
+          <a href="#featured">Featured</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#testimonials">Reviews</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="btn ghost">Become a Seller</button>
+          <button class="btn primary">Join</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Fiverr-style digital marketplace</p>
+            <h1>Find premium books, audio packs, and courses that grow your skills fast.</h1>
+            <p class="hero-sub">
+              Discover trusted creators, compare packages, and purchase instantly. Learn from
+              bestselling authors, top coaches, and industry experts.
+            </p>
+            <form class="search-bar" aria-label="Search products">
+              <input type="text" placeholder="Search books, audiobooks, courses..." />
+              <button type="submit">Search</button>
+            </form>
+            <div class="hero-stats">
+              <span><strong>35K+</strong> Active buyers</span>
+              <span><strong>4.9/5</strong> Avg. rating</span>
+              <span><strong>12K+</strong> Products live</span>
+            </div>
+          </div>
+          <div class="hero-card" aria-label="Featured seller">
+            <h3>Top Seller Spotlight</h3>
+            <p class="seller">By Dr. William Triplett</p>
+            <h2>Master Digital Growth Bundle</h2>
+            <ul>
+              <li>📘 eBook: Marketplace Positioning</li>
+              <li>🎧 Audio: 7-Day Motivation Series</li>
+              <li>🎓 Course: Monetization Blueprint</li>
+            </ul>
+            <div class="price-row">
+              <span class="price">$89</span>
+              <button class="btn dark">View Package</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories" id="categories">
+        <div class="container">
+          <div class="section-head">
+            <h2>Browse by category</h2>
+            <a href="#">View all</a>
+          </div>
+          <div class="category-grid">
+            <article>
+              <h3>Books & eBooks</h3>
+              <p>Business, self-growth, marketing, coding, and more.</p>
+            </article>
+            <article>
+              <h3>Audio & Podcasts</h3>
+              <p>Guided lessons, audiobook chapters, and expert talks.</p>
+            </article>
+            <article>
+              <h3>Courses & Coaching</h3>
+              <p>Step-by-step video classes and practical assignments.</p>
+            </article>
+            <article>
+              <h3>Templates & Toolkits</h3>
+              <p>Workbooks, prompts, planners, and launch frameworks.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured" id="featured">
+        <div class="container">
+          <div class="section-head">
+            <h2>Featured offers</h2>
+            <a href="#">See more offers</a>
+          </div>
+          <div class="offer-grid" id="offerGrid"></div>
+        </div>
+      </section>
+
+      <section class="how" id="how-it-works">
+        <div class="container">
+          <h2>How MarketVerse works</h2>
+          <div class="steps">
+            <article>
+              <span>1</span>
+              <h3>Search & compare</h3>
+              <p>Filter by content type, niche, budget, and creator rating.</p>
+            </article>
+            <article>
+              <span>2</span>
+              <h3>Purchase securely</h3>
+              <p>Pay once and get instant access through your dashboard.</p>
+            </article>
+            <article>
+              <span>3</span>
+              <h3>Learn and scale</h3>
+              <p>Track progress and earn completion badges as you grow.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <h2>What buyers are saying</h2>
+          <div class="quotes">
+            <blockquote>
+              “The courses are super practical. I landed my first $5k client in 3 weeks.”
+              <cite>— Sarah J., Freelancer</cite>
+            </blockquote>
+            <blockquote>
+              “Exactly like Fiverr for digital learning products, but curated and clean.”
+              <cite>— Marcus T., Agency Owner</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 MarketVerse. Built for creators, coaches, and learners.</p>
+        <div class="footer-links">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Support</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
